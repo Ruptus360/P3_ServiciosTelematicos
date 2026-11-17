@@ -1,0 +1,37 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px;
+    background-color:whitesmoke;
+}
+
+header,footer,div{
+    border: 1.1px;
+    background-color:beige;
+    padding:5px;
+
+}
+
+nav{
+    display:flex;
+}
+
+ul{
+    display:flex;
+    flex-direction: row;
+}
+
+h1 {
+    border: 1px;
+    background-color:beige;
+    padding: 5px;
+    font-weight: bold;
+    
+}
+
+
+.carrusel{
+    width:auto;
+    height: 280px;
+    padding:10px;
+    gap:5px;
+}
