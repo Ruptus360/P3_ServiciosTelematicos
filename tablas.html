@@ -1,56 +1,86 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
-  <title>Galeria</title>
+  <title>Tablas</title>
   <link rel="stylesheet" href="css/styles.css">
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-  <script src="js/p3.js"></script>
+  <script src="js/p3_1.js"></script>
 </head>
 
 <body>
   <main class="contenedor1">
-  <header><h1 class="titulo1">Galeria Meterologica</h1></header>
-  
-  
-  <nav aria-label="Correaimagenes1">
-   <ul class="linea">
-   
-    <li><img class="carrusel" id="foto1" src="images/foto1.jpg"></li>
-    <li><img class="carrusel" id="foto2" src="images/foto2.jpg"></li>
-    <li><img class="carrusel" id="foto3" src="images/foto3.jpg"></li>
-    <li><img class="carrusel" id="foto4" src="images/foto4.jpg"></li>
-    
-   </ul>
-  
-  
-  
-  </nav>
-  
-  <nav aria-label="Correaimagenes2">
+    <header><h1 class="titulo1">Estaciones meteorológicas</h1></header>
 
-  <button type="button" id="anterior" class="flecha" aria-label="anterior">anterior</button>
-   <ul class="linea" id="desplazar">
-   
-    <li><img class="carrusel" id="foto5" src="images/foto5.jpg"></li>
-    <li><img class="carrusel" id="foto6" src="images/img2.jpg"></li>
-    <li><img class="carrusel" id="foto7" src="images/img3.jpg"></li>
-    <li><img class="carrusel" id="foto8" src="images/img4.jpg"></li>
-    <li><img class="carrusel" id="foto9" src="images/img5.jpg"></li>
-    <li><img class="carrusel" id="foto10" src="images/img6.jpg"></li>
-    <li><img class="carrusel" id="foto11" src="images/img7.jpg"></li>
-    <li><img class="carrusel" id="foto12" src="images/img8.jpg"></li>
     
-   </ul>
-  
-  <button type="button" id="Siguiente" class="flecha" aria-label="siguiente">siguiente</button>
-  
-  </nav>
-  
-  
+    <div class="pagina" id="pagina1">
+      <table>
+        <thead>
+          <tr><th>Ciudad</th><th>Temperatura (º)</th><th>Humedad (%)</th><th>Ruido</th><th>Nivel de luz</th><th>Color de Iluminación</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Alcalá de H.</td><td>25</td><td>48</td><td>150</td><td>120</td><td>000000</td></tr>
+          <tr><td>Alicante</td><td>30</td><td>69</td><td>180</td><td>211</td><td>FF0000</td></tr>
+          <tr><td>Badajoz</td><td>35</td><td>30</td><td>50</td><td>150</td><td>00FF00</td></tr>
+          <tr><td>Burgos</td><td>18</td><td>42</td><td>211</td><td>180</td><td>0000FF</td></tr>
+          <tr><td>Córdoba</td><td>35</td><td>41</td><td>150</td><td>50</td><td>FFFFFF</td></tr>
+        </tbody>
+      </table>
+    </div>
 
+    <div class="pagina" id="pagina2">
+      <table>
+        <thead>
+          <tr><th>Ciudad</th><th>Temperatura (º)</th><th>Humedad (%)</th><th>Ruido</th><th>Nivel de luz</th><th>Color de Iluminación</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Granada</td><td>28</td><td>38</td><td>90</td><td>200</td><td>FFFF00</td></tr>
+          <tr><td>Huelva</td><td>29</td><td>55</td><td>110</td><td>190</td><td>00FFFF</td></tr>
+          <tr><td>León</td><td>14</td><td>60</td><td>70</td><td>95</td><td>FF00FF</td></tr>
+          <tr><td>Madrid</td><td>22</td><td>45</td><td>200</td><td>170</td><td>FFFFFF</td></tr>
+          <tr><td>Málaga</td><td>27</td><td>65</td><td>130</td><td>220</td><td>FF8800</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="pagina" id="pagina3">
+      <table>
+        <thead>
+          <tr><th>Ciudad</th><th>Temperatura (º)</th><th>Humedad (%)</th><th>Ruido</th><th>Nivel de luz</th><th>Color de Iluminación</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Murcia</td><td>33</td><td>40</td><td>140</td><td>205</td><td>FF0000</td></tr>
+          <tr><td>Oviedo</td><td>13</td><td>78</td><td>60</td><td>80</td><td>0000FF</td></tr>
+          <tr><td>Pamplona</td><td>16</td><td>62</td><td>85</td><td>110</td><td>00FF00</td></tr>
+          <tr><td>Salamanca</td><td>17</td><td>52</td><td>75</td><td>130</td><td>FFFFFF</td></tr>
+          <tr><td>Santander</td><td>15</td><td>80</td><td>95</td><td>100</td><td>00FFFF</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="pagina" id="pagina4">
+      <table>
+        <thead>
+          <tr><th>Ciudad</th><th>Temperatura (º)</th><th>Humedad (%)</th><th>Ruido</th><th>Nivel de luz</th><th>Color de Iluminación</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Sevilla</td><td>34</td><td>35</td><td>160</td><td>230</td><td>FFFF00</td></tr>
+          <tr><td>Toledo</td><td>26</td><td>39</td><td>80</td><td>175</td><td>FF8800</td></tr>
+          <tr><td>Valencia</td><td>28</td><td>70</td><td>170</td><td>215</td><td>FF00FF</td></tr>
+          <tr><td>Valladolid</td><td>19</td><td>50</td><td>100</td><td>140</td><td>000000</td></tr>
+          <tr><td>Zaragoza</td><td>24</td><td>44</td><td>120</td><td>185</td><td>0000FF</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <nav aria-label="Paginación de tablas" id="paginacion">
+      <a href="#" class="enlace-pagina" data-pagina="1">Página 1</a>
+      <a href="#" class="enlace-pagina" data-pagina="2">Página 2</a>
+      <a href="#" class="enlace-pagina" data-pagina="3">Página 3</a>
+      <a href="#" class="enlace-pagina" data-pagina="4">Página 4</a>
+    </nav>
   </main>
-
 </body>
-
 </html>
+
