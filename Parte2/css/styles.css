@@ -1,0 +1,106 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px;
+    background-color:whitesmoke;
+}
+
+header,footer,div{
+    border: 1.1px;
+    background-color:beige;
+    padding:5px;
+
+}
+
+nav{
+    display:flex;
+}
+
+ul{
+    display:flex;
+    flex-direction: row;
+}
+
+h1 {
+    border: 1px;
+    background-color:beige;
+    padding: 5px;
+    font-weight: bold;
+    
+}
+
+
+.carrusel{
+    width:auto;
+    height: 280px;
+    padding:10px;
+    gap:5px;
+}
+
+.linea{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 5px;
+}
+
+.visor{
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+    padding: 8px;
+    background-color: #e9eee0;
+    border: 1px solid #b9c0aa;
+}
+
+.ventana{
+    flex: 1;
+    min-width: 0;           
+    overflow: hidden;
+    padding: 0;
+    background-color: transparent;
+}
+
+#desplazar{
+    position: relative;      
+    width: max-content;
+}
+
+.flecha{
+    border: none;
+    background: transparent;
+    color: #4a76b0;
+    font-family: inherit;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 12px;
+}
+
+.flecha:disabled{
+    opacity: .3;
+    cursor: default;}
+
+#info{
+    display:none;
+    position: absolute;
+    z-index: 10;
+    background-color: #fff;
+    border: 1px solid #555;
+    padding: 6px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .5);
+    pointer-events: none;
+    text-align: center;
+}
+#info img{
+    display: block;
+    width: 480px;
+    height: auto;
+}
+#info p{
+    margin: 4px 0 0;
+    font-weight: bold;
+}
+
+.pagina{
+    display: none;
+}

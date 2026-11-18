@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Configuración</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/p3_ciudades.js"></script>
+</head>
+
+<body>
+  <main class="contenedor1">
+    <header><h1 class="titulo1">Configuración</h1></header>
+
+    <form id="configuracion">
+      <p>
+        <label for="nombre">Nombre de la estación</label>
+        <input type="text" id="nombre" name="nombre">
+      </p>
+      <p>
+        <label for="pais">País</label>
+        <select id="pais" name="pais">
+          <option value="">Selecciona un país</option>
+          <option value="es">España</option>
+          <option value="fr">Francia</option>
+          <option value="it">Italia</option>
+          <option value="pt">Portugal</option>
+        </select>
+      </p>
+      <p>
+        <label for="ciudad">Ciudad</label>
+        <select id="ciudad" name="ciudad"></select>
+      </p>
+    </form>
+  </main>
+</body>
+</html>
