@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Galeria</title>
-  <link rel="stylesheet" href="css/iroom.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="js/p3.js"></script>
 </head>
 
@@ -15,10 +16,10 @@
   <nav aria-label="Correaimagenes1">
    <ul class="linea">
    
-    <li><img class="carrusel" id="foto1" src="images/img1.jpg></li>
-    <li><img class="carrusel" id="foto2" src="images/img2.jpg></li>
-    <li><img class="carrusel" id="foto3" src="images/img3.jpg></li>
-    <li><img class="carrusel" id="foto4" src="images/img4.jpg></li>
+    <li><img class="carrusel" id="foto1" src="images/foto1.jpg"></li>
+    <li><img class="carrusel" id="foto2" src="images/foto2.jpg"></li>
+    <li><img class="carrusel" id="foto3" src="images/foto3.jpg"></li>
+    <li><img class="carrusel" id="foto4" src="images/foto4.jpg"></li>
     
    </ul>
   
@@ -26,23 +27,33 @@
   
   </nav>
   
-  <nav aria-label="Correaimagenes2">
+  <nav aria-label="Correaimagenes2" class="visor">
+
+  <button type="button" id="anterior" class="flecha" aria-label="anterior">anterior</button>
+
+  <div class="ventana">
    <ul class="linea" id="desplazar">
    
-    <li><img class="carrusel" id="foto1" src="images/img1.jpg></li>
-    <li><img class="carrusel" id="foto2" src="images/img2.jpg></li>
-    <li><img class="carrusel" id="foto3" src="images/img3.jpg></li>
-    <li><img class="carrusel" id="foto4" src="images/img4.jpg></li>
-    <li><img class="carrusel" id="foto5" src="images/img5.jpg></li>
-    <li><img class="carrusel" id="foto6" src="images/img6.jpg></li>
-    <li><img class="carrusel" id="foto7" src="images/img7.jpg></li>
-    <li><img class="carrusel" id="foto8" src="images/img8.jpg></li>
+    <li><img class="carrusel" id="foto5" src="images/foto5.jpg"></li>
+    <li><img class="carrusel" id="foto6" src="images/foto6.jpg"></li>
+    <li><img class="carrusel" id="foto7" src="images/foto8.jpg"></li>
+    <li><img class="carrusel" id="foto8" src="images/foto9.jpg"></li>
+    <li><img class="carrusel" id="foto9" src="images/foto10.jpg"></li>
+    <li><img class="carrusel" id="foto10" src="images/foto11.jpg"></li>
+    <li><img class="carrusel" id="foto11" src="images/foto12.jpg"></li>
+    <li><img class="carrusel" id="foto12" src="images/foto13.jpg"></li>
     
    </ul>
+  </div>
   
-  
+  <button type="button" id="siguiente" class="flecha" aria-label="siguiente">siguiente</button>
   
   </nav>
+
+  <div id="info">
+   <img id="info-img" src="" alt="">
+   <p id="info-nombre"></p>
+  </div>
   
   
 
