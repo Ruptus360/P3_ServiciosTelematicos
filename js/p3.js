@@ -59,7 +59,6 @@ $(document).ready(function () {
 
   $(window).on("load resize", function () { irA(offset); });
 
-  // Estado inicial de los botones (por si "load" ya ocurrió antes de llegar aquí)
   irA(0);
 
 });
