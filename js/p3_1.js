@@ -1,10 +1,10 @@
 $(document).ready(function () {
 
-  // Guarda los datos de la página activa 
+ 
   var datosActuales = [];
   var cargadaAjax = { 2: false, 3: false };
 
-  // Construye una tabla HTML a partir de un array
+
   function construirTablaHTML(filas) {
     var html = "<table><thead>" +
       "<tr>" +
@@ -31,7 +31,7 @@ $(document).ready(function () {
     return html;
   }
 
-  // Extrae los datos de la tabla visible
+ 
   function extraerDatosDeTabla($pagina) {
     var lista = [];
     $pagina.find("tbody tr").each(function () {
