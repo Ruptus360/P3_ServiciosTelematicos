@@ -13,11 +13,17 @@
   <main class="contenedor1">
     <header><h1 class="titulo1">Estaciones meteorológicas</h1></header>
 
-    
     <div class="pagina" id="pagina1">
       <table>
         <thead>
-          <tr><th>Ciudad</th><th>Temperatura (º)</th><th>Humedad (%)</th><th>Ruido</th><th>Nivel de luz</th><th>Color de Iluminación</th></tr>
+          <tr>
+            <th>Ciudad</th>
+            <th>Temperatura (º)</th>
+            <th>Humedad (%)</th>
+            <th>Ruido</th>
+            <th>Nivel de luz</th>
+            <th>Color de Iluminación</th>
+          </tr>
         </thead>
         <tbody>
           <tr><td>Alcalá de H.</td><td>25</td><td>48</td><td>150</td><td>120</td><td>000000</td></tr>
@@ -29,40 +35,24 @@
       </table>
     </div>
 
-    <div class="pagina" id="pagina2">
-      <table>
-        <thead>
-          <tr><th>Ciudad</th><th>Temperatura (º)</th><th>Humedad (%)</th><th>Ruido</th><th>Nivel de luz</th><th>Color de Iluminación</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>Granada</td><td>28</td><td>38</td><td>90</td><td>200</td><td>FFFF00</td></tr>
-          <tr><td>Huelva</td><td>29</td><td>55</td><td>110</td><td>190</td><td>00FFFF</td></tr>
-          <tr><td>León</td><td>14</td><td>60</td><td>70</td><td>95</td><td>FF00FF</td></tr>
-          <tr><td>Madrid</td><td>22</td><td>45</td><td>200</td><td>170</td><td>FFFFFF</td></tr>
-          <tr><td>Málaga</td><td>27</td><td>65</td><td>130</td><td>220</td><td>FF8800</td></tr>
-        </tbody>
-      </table>
-    </div>
+    
+    <div class="pagina" id="pagina2"></div>
 
-    <div class="pagina" id="pagina3">
-      <table>
-        <thead>
-          <tr><th>Ciudad</th><th>Temperatura (º)</th><th>Humedad (%)</th><th>Ruido</th><th>Nivel de luz</th><th>Color de Iluminación</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>Murcia</td><td>33</td><td>40</td><td>140</td><td>205</td><td>FF0000</td></tr>
-          <tr><td>Oviedo</td><td>13</td><td>78</td><td>60</td><td>80</td><td>0000FF</td></tr>
-          <tr><td>Pamplona</td><td>16</td><td>62</td><td>85</td><td>110</td><td>00FF00</td></tr>
-          <tr><td>Salamanca</td><td>17</td><td>52</td><td>75</td><td>130</td><td>FFFFFF</td></tr>
-          <tr><td>Santander</td><td>15</td><td>80</td><td>95</td><td>100</td><td>00FFFF</td></tr>
-        </tbody>
-      </table>
-    </div>
+    
+    <div class="pagina" id="pagina3"></div>
 
+    
     <div class="pagina" id="pagina4">
       <table>
         <thead>
-          <tr><th>Ciudad</th><th>Temperatura (º)</th><th>Humedad (%)</th><th>Ruido</th><th>Nivel de luz</th><th>Color de Iluminación</th></tr>
+          <tr>
+            <th>Ciudad</th>
+            <th>Temperatura (º)</th>
+            <th>Humedad (%)</th>
+            <th>Ruido</th>
+            <th>Nivel de luz</th>
+            <th>Color de Iluminación</th>
+          </tr>
         </thead>
         <tbody>
           <tr><td>Sevilla</td><td>34</td><td>35</td><td>160</td><td>230</td><td>FFFF00</td></tr>
@@ -80,7 +70,12 @@
       <a href="#" class="enlace-pagina" data-pagina="3">Página 3</a>
       <a href="#" class="enlace-pagina" data-pagina="4">Página 4</a>
     </nav>
+
+    
+    <section id="histograma" style="display:none; margin-top:20px; padding:12px; border:1px solid #999; background:#fff;">
+      <h2 id="histograma-titulo" style="text-align:center; margin-top:0;"></h2>
+      <div id="histograma-filas"></div>
+    </section>
   </main>
 </body>
 </html>
-
