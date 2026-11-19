@@ -1,0 +1,42 @@
+[
+  {
+    "ciudad": "Murcia",
+    "temperatura": 33,
+    "humedad": 40,
+    "ruido": 140,
+    "luz": 205,
+    "color": "FF0000"
+  },
+  {
+    "ciudad": "Oviedo",
+    "temperatura": 13,
+    "humedad": 78,
+    "ruido": 60,
+    "luz": 80,
+    "color": "0000FF"
+  },
+  {
+    "ciudad": "Pamplona",
+    "temperatura": 16,
+    "humedad": 62,
+    "ruido": 85,
+    "luz": 110,
+    "color": "00FF00"
+  },
+  {
+    "ciudad": "Salamanca",
+    "temperatura": 17,
+    "humedad": 52,
+    "ruido": 75,
+    "luz": 130,
+    "color": "FFFFFF"
+  },
+  {
+    "ciudad": "Santander",
+    "temperatura": 15,
+    "humedad": 80,
+    "ruido": 95,
+    "luz": 100,
+    "color": "00FFFF"
+  }
+]
